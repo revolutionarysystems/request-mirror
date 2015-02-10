@@ -35,10 +35,15 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20140107</version>
+        </dependency>-->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>uk.co.revsys.utils</groupId>
@@ -116,6 +121,7 @@
                 <version>1.9.17</version>
                 <configuration>
                     <enableJarClasses>false</enableJarClasses>
+                    <port>5678</port>
                     <!-- Comment in the below snippet to bind to all IPs instead of just localhost -->
                     <!-- address>0.0.0.0</address>
                     <port>8080</port -->
